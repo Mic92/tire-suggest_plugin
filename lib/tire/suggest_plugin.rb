@@ -4,7 +4,7 @@ require 'tire/suggest_plugin/params'
 require 'tire/suggest_plugin/suggestions'
 
 module Tire::SuggestPlugin
-  class SuggestRequiestFailed < StandardError; end
+  class SuggestRequestFailed < StandardError; end
 
   class Suggest
     def initialize(indices=nil, options={}, &block)
